@@ -1,11 +1,6 @@
 # Experimental Indonesian language model for Spacy 
 Indonesian language model trained on UD_Indonesian_GSD v2.2 (2018-03-01) available here: 
 
-# Experimental Norwegian (Bokmål) language model for Spacy
-
-This model is based of the Norwegian Universal dependency dataset that can
-be found here:
-
 https://github.com/UniversalDependencies/UD_Indonesian-GSD
 
 Command used to train the model:
