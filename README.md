@@ -55,6 +55,9 @@ Warning: Unnamed vectors -- this won't allow multiple vectors models to be loade
 
 ## Training results 
 ![alt text](id_dep_ud_sm_train_results.png)
+
+the explanation of each metric can be found from spaCy's official docs: 
+https://spacy.io/api/cli#train
 ![alt text](metrics.png)
 
 ## Evaluation results
