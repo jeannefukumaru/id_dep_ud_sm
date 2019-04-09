@@ -12,6 +12,7 @@ Command used to train the model:
 ## Installation
 
 To install the package use this command:
+`pip install https://github.com/jeannefukumaru/id_dep_ud_sm/tree/master/id_dep_ud_sm/id_dep_ud_sm-0.0.1/dist/id_dep_ud_sm-0.0.1.tar.gz`
 
 # Usage
 
