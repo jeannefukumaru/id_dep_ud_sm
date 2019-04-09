@@ -3,6 +3,8 @@ Indonesian language model trained on UD_Indonesian_GSD v2.2 (2018-03-01) availab
 
 https://github.com/UniversalDependencies/UD_Indonesian-GSD
 
+Lemmas, XPOS and morphological features comes from MorphInd (created by Septina Dian Larasati, run and converted by Dan Zeman, http://septinalarasati.com/morphind/).
+
 Command used to train the model:
 
 `python -m spacy train id models id_gsd-ud-train.json id_gsd-ud-dev.json`
