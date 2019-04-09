@@ -9,12 +9,14 @@ Command used to train the model:
 
 `python -m spacy train id models id_gsd-ud-train.json id_gsd-ud-dev.json`
 
+Note that this is not an official spaCy model yet. More improvements are needed before the model is production-ready, hence countributions are welcomed. Open an issue or make a pull request to give feedback on POS / dependency parser predictions or  discuss enhancements like hyperparameter tuning. The next thing this model needs is Named Entity Recognition, so it would be great to get a discussion going on where to find good data and what previous state-of-the-art results are for Indonesian. Get in touch! 
+
 ## Installation
 
 To install the package use this command:  
 `pip install https://github.com/jeannefukumaru/id_dep_ud_sm/tree/master/id_dep_ud_sm/id_dep_ud_sm-0.0.1/dist/id_dep_ud_sm-0.0.1.tar.gz`
 
-troubleshooting: 
+Troubleshooting: 
 1. If `pip install` doesn't work, manually download id_dep_ud_sm-0.0.1.tar.gz then at the command line: 
    ```bash
    tar -xzvf id_dep_ud_sm-0.0.1.tar.gz
@@ -80,4 +82,4 @@ https://spacy.io/api/cli#train
     LAS                73.74          
     NER P              0.00           
     NER R              0.00           
-    NER F              0.00 
+    NER F              0.00  
