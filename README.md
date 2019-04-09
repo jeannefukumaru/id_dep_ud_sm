@@ -70,7 +70,19 @@ Warning: Unnamed vectors -- this won't allow multiple vectors models to be loade
 
 the explanation of each metric can be found from spaCy's official docs: 
 https://spacy.io/api/cli#train
-![alt text](metrics.png)
+
+| Name | Description |
+| ---  | ---         | 
+| Dep Loss | Training loss for dependency parser. Should decrease, but usually not to 0 |
+| NER Loss | Training loss for named entity recognizer. Should decrease, but not to 0 |
+| UAS | Unlabeled attachment score for parser. The percentage of unlabeled correct arcs. Should increase 
+| NER P. | NER precision on development data. Should increase.
+| NER R. | NER recall on development data. Should increase. 
+| NER F | NER F-score on development data. Should increase. 
+| Tag % | Fine-grained part-of-speech tag accuracy on development data. Should increase. 
+| Token % | Tokenization accuracy on development data. 
+| CPU WPS | Prediction speed on CPU in words per second, if available. Should stay stable. 
+| GPU WPS | Prediction speed on GPU in words per second, if available. Should stay stable. 
 
 ## Evaluation results
     Time               1.67 s         
