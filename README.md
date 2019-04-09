@@ -16,11 +16,15 @@ To install the package use this command:
 
 # Usage
 
-```
+```python
 import spacy
 id = spacy.load("id_dep_ud_sm")
 
-doc = id("Det er kaldt på vinteren i Norge.")
+doc = id("Bantulah kami melengkapi berita dan informasi")
+
+for token in doc:
+    print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
+            token.shape_, token.is_alpha, token.is_stop)
 ```
 
 ## Training results:
