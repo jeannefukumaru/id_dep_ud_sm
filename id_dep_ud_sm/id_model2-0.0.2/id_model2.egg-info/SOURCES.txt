@@ -1,0 +1,23 @@
+MANIFEST.in
+meta.json
+setup.py
+id _model2/__init__.py
+id _model2/meta.json
+id _model2/id _model2-0.0.2/meta.json
+id _model2/id _model2-0.0.2/tokenizer
+id _model2/id _model2-0.0.2/parser/cfg
+id _model2/id _model2-0.0.2/parser/model
+id _model2/id _model2-0.0.2/parser/moves
+id _model2/id _model2-0.0.2/tagger/cfg
+id _model2/id _model2-0.0.2/tagger/model
+id _model2/id _model2-0.0.2/tagger/tag_map
+id _model2/id _model2-0.0.2/vocab/key2row
+id _model2/id _model2-0.0.2/vocab/lexemes.bin
+id _model2/id _model2-0.0.2/vocab/strings.json
+id _model2/id _model2-0.0.2/vocab/vectors
+id_model2.egg-info/PKG-INFO
+id_model2.egg-info/SOURCES.txt
+id_model2.egg-info/dependency_links.txt
+id_model2.egg-info/not-zip-safe
+id_model2.egg-info/requires.txt
+id_model2.egg-info/top_level.txt
