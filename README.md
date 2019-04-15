@@ -14,7 +14,7 @@ Note that this is not an official spaCy model yet. More improvements are needed 
 ## Installation
 
 To install the package use this command:  
-`pip install https://github.com/jeannefukumaru/id_dep_ud_sm/tree/master/id_dep_ud_sm/id_dep_ud_sm-0.0.1/dist/id_dep_ud_sm-0.0.1.tar.gz`
+`pip install https://github.com/jeannefukumaru/id_dep_ud_sm/tree/master/id_dep_ud_sm/id_model2-0.0.2/dist/id_model2-0.0.2.tar.gz`
 
 Troubleshooting: 
 1. If `pip install` doesn't work, manually download id_dep_ud_sm-0.0.1.tar.gz then at the command line: 
