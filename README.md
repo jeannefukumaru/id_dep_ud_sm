@@ -19,8 +19,8 @@ To install the package use this command:
 Troubleshooting: 
 1. If `pip install` doesn't work, manually download id_dep_ud_sm-0.0.1.tar.gz then at the command line: 
    ```bash
-   tar -xzvf id_dep_ud_sm-0.0.1.tar.gz
-   cd id_dep_ud_sm-0.0.1.tar.gz
+   tar -xzvf id_model2-0.0.2.tar.gz
+   cd id_model2-0.0.2.tar.gz
    python setup.py install
    ```
 
