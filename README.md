@@ -66,7 +66,7 @@ Warning: Unnamed vectors -- this won't allow multiple vectors models to be loade
 - history_width = 0 by default 
 
 ## Training results 
-![alt text](id_dep_ud_sm_train_results.png)
+![alt text](train_results.png)
 
 the explanation of each metric can be found from spaCy's official docs: 
 https://spacy.io/api/cli#train
